@@ -812,22 +812,13 @@ header.hero {
 
   </main>
 
- <footer class="site-footer">
+  <footer>
+    The Final Third™ · Earn The Moment <br>
+    Cadence Cove, Inc. · San Francisco, CA · © <span id="year"></span> All rights reserved.
+  </footer>
 
-  <div class="footer-brand">
-    THE FINAL THIRD™
-  </div>
-
-  <div class="footer-tagline">
-    Earn The Moment
-  </div>
-
-  <a href="mailto:info@thefinalthird.com?subject=Final%20Third%20Inquiry"
-     class="footer-contact">
-     info@thefinalthird.com
-  </a>
-
-</footer>
-
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
